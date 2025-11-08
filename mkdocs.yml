@@ -1,6 +1,32 @@
+site_name: NMTI
+
+theme:
+  name: material
+
+plugins:
+  - search
+
 markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
   - pymdownx.arithmatex:
-      inline_syntax: ['$', '$$']
-      block_wrap: ["\\[", "\\]"]
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
 extra_javascript:
+  - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Root Finding:
+      - Introduction: root_finding/index.md
+      - Bisection: root_finding/bisection.md
+      - Secant: root_finding/secant.md
+      - Newton: root_finding/newton.md
+
