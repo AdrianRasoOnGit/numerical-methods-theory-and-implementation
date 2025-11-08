@@ -8,5 +8,6 @@ Root-finding algorithms. Please check the docs/ to read the theory behind these 
 from .bisection import bisection
 from .secant import secant
 from .newton import newton
+from .aitken import aitken
 
-__all__ = ["bisection", "secant", "newton"]
+__all__ = ["bisection", "secant", "newton", "aitken"]

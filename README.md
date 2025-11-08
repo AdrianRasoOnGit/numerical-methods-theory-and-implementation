@@ -14,9 +14,10 @@ Here are listed all the methods already present in the project:
 
 | Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
-| Bisection | Yes    | bisection.py | bisection.jl | bisection.f90 |
-| Secant    | No     | secant.py    | secant.jl    | secant.f90    |
-| Newton    | No     | newton.py    | newton.jl    | newton.f90    |
+| Bisection | Yes    | `bisection.py` | `bisection.jl` | `bisection.f90` |
+| Secant    | Yes    | `secant.py`    | `secant.jl`    | `secant.f90`    |
+| Newton    | Yes    | `newton.py`    | `newton.jl`    | `newton.f90`    |
+| Aitken    | No     | `aitken.py`    | None         | None |
 
 
 Following these, I plan to add *False Position*, *Müller*, and *Aitken*, and after those, start the interpolation methods.
