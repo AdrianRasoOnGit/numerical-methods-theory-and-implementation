@@ -104,7 +104,5 @@ In this way, we will iterate these steps until meeting the tolerance. If we assu
 
 and apply this method using computational means, we see that the approximate solution to the equation $f(x) = x^3 - x - 2$ is $1.5214$.
 
-## Convergence and complexity
 
-El bisection method garantiza convergencia si se cumplen las condiciones que expresamos arriba. Con cada iteración, reducmos el intervalo a la mitad, lo que significa que la root is enclosed within an interval that shrinks geometrically.
 
