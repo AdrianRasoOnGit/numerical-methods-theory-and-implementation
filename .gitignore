@@ -1,0 +1,50 @@
+# Fortran
+*.mod
+*.MOD
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Julia
+*.ji
+Manifest.toml
+
+# MkDocs
+/site/
+
+# Trials
+trial.py
+
+# Cache
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.env
+.venv
+venv/
+env/
+.ipynb_checkpoints/
+.ruff_cache/
+
+# Bundle
+bundle_project.py
+project_bundle.txt
+
