@@ -24,7 +24,7 @@ Here are listed all the methods already present in the project:
 #### Interpolation Methods
  Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
-| Lagrange | No    | [`lagrange.py`](python/nmti/interpolation/lagrange.py) | [`lagrange.jl`](julia/src/interpolation/lagrange.jl) | [`lagrange.f90`](fortran/src/interpolation/lagrange.f90) |
+| Lagrange | [Yes](docs/interpolation/lagrange.md)    | [`lagrange.py`](python/nmti/interpolation/lagrange.py) | [`lagrange.jl`](julia/src/interpolation/lagrange.jl) | [`lagrange.f90`](fortran/src/interpolation/lagrange.f90) |
 | Hermite | No    | [`hermite.py`](python/nmti/interpolation/hermite.py) | [`hermite.jl`](julia/src/interpolation/hermite.jl)  | [`hermite.f90`](fortran/src/interpolation/hermite.f90) |
 
 Coming soon: Hermite, Spline, and some piecewise polynomial approximations.
