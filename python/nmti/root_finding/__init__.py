@@ -9,5 +9,6 @@ from .bisection import bisection
 from .secant import secant
 from .newton import newton
 from .aitken import aitken
+from .muller import muller
 
-__all__ = ["bisection", "secant", "newton", "aitken"]
+__all__ = ["bisection", "secant", "newton", "aitken", "muller"]
