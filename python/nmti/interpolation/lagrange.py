@@ -1,5 +1,5 @@
 
-def lagrande(x_nodes, y_nodes, x):
+def lagrange(x_nodes, y_nodes, x):
     """
     Lagrange polynomial interpolation.
 
