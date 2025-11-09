@@ -24,7 +24,7 @@ Here are listed all the methods already present in the project:
 ### Interpolation Methods
  Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
-| Lagrange | No    | `lagrange.py` | `lagrange.jl` | None |
+| Lagrange | No    | `lagrange.py` | `lagrange.jl` | `lagrange.f90` |
 
 Coming soon: Hermite, Spline, and some piecewise polynomial approximations.
 

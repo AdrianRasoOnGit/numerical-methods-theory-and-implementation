@@ -1,0 +1,25 @@
+module lagrange_mod
+  implicit none
+contains
+
+  function lagrange(x_nodes, y_nodes, x, n) result(p)
+    implicit none
+    integer, intent(in) :: n
+    real(8), intent(in) :: x_nodes(n), y_nodes(n), x
+    real(8) :: p
+    real(8) :: Li
+    integer :: i, j
+
+    p = 0d0
+
+    do i = 1, n
+       Li = 1d0
+       do j = 1, n
+          if (j /= i) then
+             Li = Li * (x - x_nodes(j)) / (x_nodes(i) - x_nodes(j))
+          end if
+       end do
+       p = p + y_nodes(i) * Li
+    end do
+
+    end function lagrange
