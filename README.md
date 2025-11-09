@@ -18,7 +18,7 @@ Here are listed all the methods already present in the project:
 | Secant    | Yes    | `secant.py`    | `secant.jl`    | `secant.f90`    |
 | Newton    | Yes    | `newton.py`    | `newton.jl`    | `newton.f90`    |
 | Aitken    | Yes    | `aitken.py`    | `aitken.jl`       | `aitken.f90` |
-| Müller    | No     | `muller.py`    | None           | None
+| Müller    | No     | `muller.py`    | `muller.jl`         | None
 
 
 Following these, I plan to add *False Position*, *Müller*, and *Aitken*, and after those, start the interpolation methods.
