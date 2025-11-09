@@ -12,6 +12,7 @@ This repository contains algorithms for numerical methods, detailed theoreticall
 
 Here are listed all the methods already present in the project:
 
+#### Root-Finding Methods
 | Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
 | Bisection | Yes    | `bisection.py` | `bisection.jl` | `bisection.f90` |
@@ -20,8 +21,12 @@ Here are listed all the methods already present in the project:
 | Aitken    | Yes    | `aitken.py`    | `aitken.jl`       | `aitken.f90` |
 | Müller    | No     | `muller.py`    | `muller.jl`         | `muller.f90`|
 
+### Interpolation Methods
+ Method    | Theory | Python       | Julia        | Fortran       |
+|-----------|--------|--------------|--------------|---------------|
+| Lagrange | No    | `lagrange.py` | `lagrange.jl` | None |
 
-Following these, I plan to add *False Position*, *Müller*, and *Aitken*, and after those, start the interpolation methods.
+Coming soon: Hermite, Spline, and some piecewise polynomial approximations.
 
 ### References
 
