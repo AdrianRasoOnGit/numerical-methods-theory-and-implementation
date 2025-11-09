@@ -22,4 +22,6 @@ contains
        p = p + y_nodes(i) * Li
     end do
 
-    end function lagrange
+  end function lagrange
+
+end module lagrange_mod

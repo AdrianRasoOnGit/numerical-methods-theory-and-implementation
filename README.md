@@ -25,6 +25,8 @@ Here are listed all the methods already present in the project:
  Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
 | Lagrange | No    | `lagrange.py` | `lagrange.jl` | `lagrange.f90` |
+|-----------|--------|--------------|--------------|---------------|
+| Hermite | No    | `hermite.py` | None  | None |
 
 Coming soon: Hermite, Spline, and some piecewise polynomial approximations.
 
