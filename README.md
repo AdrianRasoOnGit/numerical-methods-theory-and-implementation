@@ -27,7 +27,7 @@ Here are listed all the methods already present in the project:
 | Lagrange | [Yes](docs/interpolation/lagrange.md)    | [`lagrange.py`](python/nmti/interpolation/lagrange.py) | [`lagrange.jl`](julia/src/interpolation/lagrange.jl) | [`lagrange.f90`](fortran/src/interpolation/lagrange.f90) |
 | Hermite | No    | [`hermite.py`](python/nmti/interpolation/hermite.py) | [`hermite.jl`](julia/src/interpolation/hermite.jl)  | [`hermite.f90`](fortran/src/interpolation/hermite.f90) |
 | Newton | No | [`newton_i.py`](python/nmti/interpolation/newton_i.py) | [`newton_i.jl`](julia/src/interpolation/newton_i.jl) | [`newton_i.f90`](fortran/src/interpolation/newton_i.f90) |
-| Natural cubic spline | No | No | No | No |
+| Natural cubic spline | No | [`natural_cubic_spline.py`](python/nmti/interpolation/natural_cubic_spline.py) | No | No |
 | Clamped spline | No | No | No | No |
 
 
