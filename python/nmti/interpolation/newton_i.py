@@ -1,7 +1,7 @@
 
 def newton_i(x_nodes, y_nodes, x):
     """
-    Newton's divided-difference interpolation method.
+    Newton's divided difference interpolation method.
 
     Parameters
     ----------
