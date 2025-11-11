@@ -30,11 +30,11 @@ Here are listed all the methods already present in the project:
 | Natural cubic spline | No | [`natural_cubic_spline.py`](python/nmti/interpolation/natural_cubic_spline.py) | [`natural_cubic_spline.jl`](julia/src/interpolation/natural_cubic_spline.jl) | No |
 | Clamped cubic spline | No | [`clamped_cubic_spline`](python/nmti/interpolation/clamped_cubic_spline.py) | No | No |
 
-### Integration Methods
+## Integration Methods
 
  Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
-| Midpoint rule | No  | No  | No  | No  |
+| Midpoint rule | No  | [`midpoint.py`](python/nmti/integration/midpoint.py)  | No  | No  |
 | Trapezoidal rule | No    | No  | No  | No |
 | Simpson's rule | No | No | No | No  |
 
