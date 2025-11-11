@@ -34,7 +34,7 @@ Here are listed all the methods already present in the project:
 
  Method    | Theory | Python       | Julia        | Fortran       |
 |-----------|--------|--------------|--------------|---------------|
-| Midpoint rule | No  | [`midpoint.py`](python/nmti/integration/midpoint.py)  | No  | No  |
+| Midpoint rule | No  | [`midpoint.py`](python/nmti/integration/midpoint.py)  | [`midpoint.jl`](julia/src/integration/midpoint.jl)  | No  |
 | Trapezoidal rule | No    | No  | No  | No |
 | Simpson's rule | No | No | No | No  |
 
