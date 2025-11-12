@@ -35,4 +35,5 @@ From this pair, we will see that the second are more precise, but they are harde
 ## Methods
 
 Below we list the methods contained in this chapter.
-- [Lagrange Method](lagrange.md)
+- [Lagrange's Method](lagrange.md)
+- [Hermite's Method](hermite.md)
