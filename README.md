@@ -36,7 +36,7 @@ Here are listed all the methods already present in the project:
 |-----------|--------|--------------|--------------|---------------|
 | Midpoint rule | No  | [`midpoint.py`](python/nmti/integration/midpoint.py)  | [`midpoint.jl`](julia/src/integration/midpoint.jl)  | [`midpoint.f90`](fortran/src/integration/midpoint.f90)  |
 | Trapezoidal rule | No    | [`trapezoidal.py`](python/nmti/integration/trapezoidal.py)  | [`trapezoidal.jl`](julia/src/integration/trapezoidal.jl)  | [`trapezoidal.f90`](fortran/src/integration/trapezoidal.f90) |
-| Simpson's rule | No | No | No | No  |
+| Simpson's rule | No | [`simpson.py`](python/nmti/integration/simpson.py) | No | No  |
 
 ### References
 
