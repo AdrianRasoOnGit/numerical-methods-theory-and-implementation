@@ -3,7 +3,7 @@ module Midpoint
 """
         midpoint(f, a, b, n)
 
-Midpoint rule for numerical integration.
+Midpoint rule method for numerical integration.
     """
 
 function midpoint(f, a::Float64, b::Float64, n::Int)
