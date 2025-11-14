@@ -13,7 +13,7 @@ This repository contains algorithms for numerical methods, detailed theoreticall
 Here are listed all the methods already present in the project:
 
 #### Root-Finding Methods
-| Method    | [Theory](docs/root_finding/) | [Python](python/nmti/root_finding)       | [Julia](julia/src/root_finding)        | [Fortran](fortran/src/root_finding)       |
+| Method    | Theory | Python   | Julia        |Fortran       |
 |-----------|--------|--------------|--------------|---------------|
 | Bisection | [Yes](docs/root_finding/bisection.md)    | [`bisection.py`](python/nmti/root_finding/bisection.py) | [`bisection.jl`](julia/src/root_finding/bisection.j) | [`bisection.f90`](fortran/src/root_finding/bisection.f90) |
 | Secant    | [Yes](docs/root_finding/secant.md)    | [`secant.py`](python/nmti/root_finding/secant.py)    | [`secant.jl`](julia/src/root_finding/secant.jl)    | [`secant.f90`](fortran/src/root_finding/secant.f90)    |
