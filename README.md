@@ -28,7 +28,7 @@ Here are listed all the methods already present in the project:
 | Hermite | [Yes](docs/interpolation/hermite.md)    | [`hermite.py`](python/nmti/interpolation/hermite.py) | [`hermite.jl`](julia/src/interpolation/hermite.jl)  | [`hermite.f90`](fortran/src/interpolation/hermite.f90) |
 | Newton | [Yes](docs/interpolation/newton_i.md) | [`newton_i.py`](python/nmti/interpolation/newton_i.py) | [`newton_i.jl`](julia/src/interpolation/newton_i.jl) | [`newton_i.f90`](fortran/src/interpolation/newton_i.f90) |
 | Natural cubic spline | [Yes](docs/interpolation/natural_cubic_spline.md) | [`natural_cubic_spline.py`](python/nmti/interpolation/natural_cubic_spline.py) | [`natural_cubic_spline.jl`](julia/src/interpolation/natural_cubic_spline.jl) | No |
-| Clamped cubic spline | No | [`clamped_cubic_spline`](python/nmti/interpolation/clamped_cubic_spline.py) | No | No |
+| Clamped cubic spline | [Yes](docs/interpolation/clamped_cubic_spline.md) | [`clamped_cubic_spline`](python/nmti/interpolation/clamped_cubic_spline.py) | No | No |
 
 #### Integration Methods
 
