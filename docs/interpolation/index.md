@@ -37,3 +37,5 @@ From this pair, we will see that the second are more precise, but they are harde
 Below we list the methods contained in this chapter.
 - [Lagrange's Method](lagrange.md)
 - [Hermite's Method](hermite.md)
+- [Newton's Interpolation Method](newton_i.md)
+- [Natural Cubic Spline Method](natural_cubic_spline.md)
